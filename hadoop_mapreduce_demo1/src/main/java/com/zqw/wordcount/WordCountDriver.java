@@ -1,4 +1,5 @@
-package com.zqw.mapreduce;
+package com.zqw.wordcount;
+
 
 
 import org.apache.hadoop.conf.Configuration;
@@ -6,6 +7,8 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 
+import org.apache.hadoop.io.compress.BZip2Codec;
+import org.apache.hadoop.io.compress.CompressionCodec;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.CombineTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
@@ -19,6 +22,13 @@ public class WordCountDriver {
 
         //1. 获取配置信息
         Configuration configuration = new Configuration();
+
+
+        //ps 开启map端输出压缩
+        configuration.setBoolean("mapreduce.map.output.compress", true);
+        //ps 设置map端输出压缩方式
+        configuration.setClass("mapreduce.map.output.compress.codec", BZip2Codec.class, CompressionCodec.class);
+
         Job job = Job.getInstance(configuration);
 
         //2. 获取jar包的位置
@@ -46,7 +56,16 @@ public class WordCountDriver {
         CombineTextInputFormat.setMinInputSplitSize(job, 2097152);  //2M
 
         //8. 添加combiner
-        job.setCombinerClass(WordCountCombiner.class);
+//        job.setCombinerClass(WordCountCombiner.class);
+
+        //ps 设置reduce端输出压缩开启
+        FileOutputFormat.setCompressOutput(job, true);
+
+        //ps 设置压缩的方式
+        FileOutputFormat.setOutputCompressorClass(job, BZip2Codec.class);
+//	    FileOutputFormat.setOutputCompressorClass(job, GzipCodec.class);
+//	    FileOutputFormat.setOutputCompressorClass(job, DefaultCodec.class);
+
 
 
         //7. 将job中配置的相关参数，以及相关的java类所在的jar包交给yarn去运行
