@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68680ac2-9304-4055-840e-57d0c77ac755" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendDriver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendReducer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationDriver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zookeeper_demo/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zookeeper_demo/src/main/java/com/zqw/demo/TestZookeeper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zookeeper_demo/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zookeeper_demo/zookeeper_demo.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hadoop_hdfs/target/" />
     <ignored path="$PROJECT_DIR$/hadoop_mapreduce_demo1/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper_demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,81 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WordCountDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/wordcount/WordCountDriver.java">
+      <file leaf-file-name="TestZookeeper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zookeeper_demo/src/main/java/com/zqw/demo/TestZookeeper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DistributedCacheMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/mapjoin/DistributedCacheMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="72" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RelationMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RelationDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendReducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendDriver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="545">
+              <caret line="57" column="65" lean-forward="true" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,8 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/flowsum/FlowDriver.java" />
-        <option value="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/flowsort/FlowSortReducer.java" />
         <option value="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/flowsort/FlowSortMapper.java" />
         <option value="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/flowsort/FlowSortPartitioner.java" />
         <option value="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/flowsort/FlowSortDriver.java" />
@@ -214,6 +151,8 @@
         <option value="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationReducer.java" />
         <option value="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationDriver.java" />
         <option value="$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationMapper.java" />
+        <option value="$PROJECT_DIR$/zookeeper_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper_demo/src/main/java/com/zqw/demo/TestZookeeper.java" />
       </list>
     </option>
   </component>
@@ -257,9 +196,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="362" />
-    <option name="y" value="-12" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="138" />
+    <option name="y" value="41" />
     <option name="width" value="1573" />
     <option name="height" value="1017" />
   </component>
@@ -281,10 +220,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,75 +230,11 @@
               <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop_mapreduce_demo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop_mapreduce_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop_mapreduce_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop_mapreduce_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop_mapreduce_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop_mapreduce_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqw" type="462c0819:PsiDirectoryNode" />
-              <item name="flowsort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop_mapreduce_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqw" type="462c0819:PsiDirectoryNode" />
-              <item name="friend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop_mapreduce_demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqw" type="462c0819:PsiDirectoryNode" />
-              <item name="mapjoin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,6 +259,7 @@
       <recent name="com.zqw.outputformat" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\develop\idea_hadoop\hadoop_demo1\zookeeper_demo\src\main\resources" />
       <recent name="F:\develop\idea_hadoop\hadoop_demo1\hadoop_mapreduce_demo1\src\main\java\com\zqw\flowsort" />
       <recent name="F:\develop\idea_hadoop\hadoop_demo1\hadoop_mapreduce_demo1\src\main\resources" />
       <recent name="F:\develop\idea_hadoop\hadoop_demo1\hadoop_hdfs\src\main\resources" />
@@ -402,32 +277,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RelationDriver">
+  <component name="RunManager" selected="JUnit.TestZookeeper.test4">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="FriendDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zqw.friend.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zqw.friend.FriendDriver" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="f:\b\input f:\b\f" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hadoop_mapreduce_demo1" />
-      <envs />
     </configuration>
     <configuration name="RelationDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -437,63 +293,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.zqw.friend.RelationDriver" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="f:\b\input f:\b\f" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hadoop_mapreduce_demo1" />
-      <envs />
-    </configuration>
-    <configuration name="TestCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zqw.compress.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zqw.compress.TestCompress" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hadoop_mapreduce_demo1" />
-      <envs />
-    </configuration>
-    <configuration name="TwoIndexDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zqw.index.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zqw.index.TwoIndexDriver" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="f:\b\input f:\b\f" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hadoop_mapreduce_demo1" />
-      <envs />
-    </configuration>
-    <configuration name="WordCountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zqw.wordcount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zqw.wordcount.WordCountDriver" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="f:\b\input f:\b\f" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -518,6 +317,106 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="TestZookeeper.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zqw.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="zookeeper_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zqw.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.zqw.demo.TestZookeeper" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestZookeeper.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zqw.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="zookeeper_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zqw.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.zqw.demo.TestZookeeper" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestZookeeper.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zqw.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="zookeeper_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zqw.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.zqw.demo.TestZookeeper" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestZookeeper.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zqw.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="zookeeper_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zqw.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.zqw.demo.TestZookeeper" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -580,19 +479,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TwoIndexDriver" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestCompress" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WordCountDriver" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FriendDriver" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RelationDriver" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RelationDriver" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestZookeeper.test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestZookeeper.test2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestZookeeper.test3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestZookeeper.test4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RelationDriver" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FriendDriver" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WordCountDriver" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestCompress" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TwoIndexDriver" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestZookeeper.test4" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestZookeeper.test3" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestZookeeper.test2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestZookeeper.test1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RelationDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -627,31 +526,11 @@
       <workItem from="1542589881438" duration="23757000" />
       <workItem from="1542761581271" duration="1718000" />
       <workItem from="1542771507770" duration="8085000" />
+      <workItem from="1542847242797" duration="4453000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HdfsClientAPI_getFileFromHDFS - 2018.11.04 at 18h 38m 53s.xml">
-      <configuration name="HdfsClientAPI.getFileFromHDFS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsClientAPI_getFileFromHDFS - 2018.11.04 at 18h 46m 42s.xml">
-      <configuration name="HdfsClientAPI.getFileFromHDFS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsClientAPI_mkdirAtHDFS - 2018.11.04 at 18h 50m 40s.xml">
-      <configuration name="HdfsClientAPI.mkdirAtHDFS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsClientAPI_readListFiles - 2018.11.04 at 19h 05m 04s.xml">
-      <configuration name="HdfsClientAPI.readListFiles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsClientAPI_renameAtHDFS - 2018.11.04 at 18h 55m 11s.xml">
-      <configuration name="HdfsClientAPI.renameAtHDFS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsIO_getFileFromHDFS - 2018.11.05 at 21h 10m 43s.xml">
-      <configuration name="HdfsIO.getFileFromHDFS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsIO_putFileToHDFS - 2018.11.05 at 21h 01m 27s.xml">
-      <configuration name="HdfsIO.putFileToHDFS" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HdfsIO_readFileSeek1 - 2018.11.05 at 21h 32m 50s.xml">
       <configuration name="HdfsIO.readFileSeek1" configurationId="JUnit" />
     </history-entry>
@@ -661,42 +540,63 @@
     <history-entry file="HdfsIO_readFileSeek2 - 2018.11.05 at 21h 33m 38s.xml">
       <configuration name="HdfsIO.readFileSeek2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestZookeeper_test1 - 2018.11.22 at 08h 58m 14s.xml">
+      <configuration name="TestZookeeper.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZookeeper_test1 - 2018.11.22 at 08h 59m 05s.xml">
+      <configuration name="TestZookeeper.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZookeeper_test2 - 2018.11.22 at 08h 59m 44s.xml">
+      <configuration name="TestZookeeper.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZookeeper_test2 - 2018.11.22 at 09h 00m 09s.xml">
+      <configuration name="TestZookeeper.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZookeeper_test3 - 2018.11.22 at 09h 30m 43s.xml">
+      <configuration name="TestZookeeper.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZookeeper_test3 - 2018.11.22 at 09h 34m 58s.xml">
+      <configuration name="TestZookeeper.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZookeeper_test4 - 2018.11.22 at 10h 14m 02s.xml">
+      <configuration name="TestZookeeper.test4" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108285000" />
+    <option name="totallyTimeSpent" value="112738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="138" y="41" width="1573" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31751823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31701347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43396226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5777234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29077253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36691126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4481132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955304" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4481132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966623" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -708,7 +608,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="36" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -766,27 +666,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/order/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2.jar!/org/apache/hadoop/io/WritableComparator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/order/OrderReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/order/OrderPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -932,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,53 +938,46 @@
         <state relative-caret-position="1224">
           <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/mapjoin/DistributedCacheMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        <state relative-caret-position="984">
+          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="264">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationReducer.java" />
     <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/RelationMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1117,24 +986,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="96">
           <caret line="8" column="72" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="72" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper_demo/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper_demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/src/main/java/com/zqw/friend/FriendDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="452">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper_demo/src/main/java/com/zqw/demo/TestZookeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="57" column="65" lean-forward="true" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

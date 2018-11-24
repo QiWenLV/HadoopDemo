@@ -11,6 +11,7 @@
     <modules>
         <module>hadoop_hdfs</module>
         <module>hadoop_mapreduce_demo1</module>
+        <module>zookeeper_demo</module>
     </modules>
 
     <dependencies>

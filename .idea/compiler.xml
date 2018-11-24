@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hadoop_hdfs" />
         <module name="hadoop_mapreduce_demo1" />
+        <module name="zookeeper_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hadoop_demo1" target="1.8" />
       <module name="hadoop_hdfs" target="1.8" />
       <module name="hadoop_mapreduce_demo1" target="1.8" />
+      <module name="zookeeper_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
