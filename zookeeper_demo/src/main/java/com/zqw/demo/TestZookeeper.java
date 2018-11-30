@@ -15,8 +15,8 @@ import java.util.List;
 
 public class TestZookeeper {
 
-    private String connectString = "hadoop21:2181,hadoop22:2181,hadoop23:2181";
-
+//    private String connectString = "hadoop21:2181,hadoop22:2181,hadoop23:2181";
+    private static String connectString = "hadoop24:2181";
     private int sessionTimeout = 2000;
 
     private ZooKeeper zkClient;
@@ -34,7 +34,7 @@ public class TestZookeeper {
     //创建节点
     @Test
     public void test2() throws KeeperException, InterruptedException {
-        String path = zkClient.create("/wendy", "oneDay".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+        String path = zkClient.create("/test_service", "aaa".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         System.out.println(path);
 
     }
@@ -52,6 +52,7 @@ public class TestZookeeper {
         Thread.sleep(Long.MAX_VALUE);
     }
 
+    //判断节点是否存在
     @Test
     public void test4() throws KeeperException, InterruptedException {
         Stat stat = zkClient.exists("/wendy", false);
