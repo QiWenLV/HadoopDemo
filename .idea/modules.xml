@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/hadoop_demo1.iml" filepath="$PROJECT_DIR$/hadoop_demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop_hdfs/hadoop_hdfs.iml" filepath="$PROJECT_DIR$/hadoop_hdfs/hadoop_hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/hadoop_mapreduce_demo1.iml" filepath="$PROJECT_DIR$/hadoop_mapreduce_demo1/hadoop_mapreduce_demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase_demo/hbase_demo.iml" filepath="$PROJECT_DIR$/hbase_demo/hbase_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/hive_demo/hive_demo.iml" filepath="$PROJECT_DIR$/hive_demo/hive_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka_demo/kafka_demo.iml" filepath="$PROJECT_DIR$/kafka_demo/kafka_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper_demo/zookeeper_demo.iml" filepath="$PROJECT_DIR$/zookeeper_demo/zookeeper_demo.iml" />
     </modules>
   </component>

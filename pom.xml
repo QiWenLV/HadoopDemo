@@ -13,6 +13,8 @@
         <module>hadoop_mapreduce_demo1</module>
         <module>zookeeper_demo</module>
         <module>hive_demo</module>
+        <module>kafka_demo</module>
+        <module>hbase_demo</module>
     </modules>
 
     <dependencies>
