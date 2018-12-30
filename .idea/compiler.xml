@@ -6,19 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="elasticsearch_demo" />
         <module name="hadoop_hdfs" />
         <module name="hadoop_mapreduce_demo1" />
+        <module name="hbase_demo" />
+        <module name="hbase_weibo" />
         <module name="hive_demo" />
         <module name="kafka_demo" />
+        <module name="storm_demo" />
         <module name="zookeeper_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="elasticsearch_demo" target="1.8" />
       <module name="hadoop_demo1" target="1.8" />
       <module name="hadoop_hdfs" target="1.8" />
       <module name="hadoop_mapreduce_demo1" target="1.8" />
+      <module name="hbase_demo" target="1.8" />
+      <module name="hbase_weibo" target="1.8" />
       <module name="hive_demo" target="1.8" />
       <module name="kafka_demo" target="1.8" />
+      <module name="storm_demo" target="1.8" />
       <module name="zookeeper_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

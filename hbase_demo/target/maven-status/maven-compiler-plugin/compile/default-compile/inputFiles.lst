@@ -1,0 +1,7 @@
+F:\develop\idea_hadoop\hadoop_demo1\hbase_demo\src\main\java\com\zqw\mr1\ReadFruitMapper.java
+F:\develop\idea_hadoop\hadoop_demo1\hbase_demo\src\main\java\com\zqw\mr2\Write2HBaseReducer.java
+F:\develop\idea_hadoop\hadoop_demo1\hbase_demo\src\main\java\com\zqw\mr2\ReadFruitFromHDFSMapper.java
+F:\develop\idea_hadoop\hadoop_demo1\hbase_demo\src\main\java\com\zqw\mr1\Fruit2FruitMRRunner.java
+F:\develop\idea_hadoop\hadoop_demo1\hbase_demo\src\main\java\com\zqw\mr1\WriteFruitMRReducer.java
+F:\develop\idea_hadoop\hadoop_demo1\hbase_demo\src\main\java\com\zqw\hbase\HBaseDemo1.java
+F:\develop\idea_hadoop\hadoop_demo1\hbase_demo\src\main\java\com\zqw\mr2\HDFS2HBaseRunner.java

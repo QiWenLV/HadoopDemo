@@ -15,6 +15,10 @@
         <module>hive_demo</module>
         <module>kafka_demo</module>
         <module>hbase_demo</module>
+        <module>hbase_weibo</module>
+        <module>storm_demo</module>
+        <module>storm_demo</module>
+        <module>elasticsearch_demo</module>
     </modules>
 
     <dependencies>

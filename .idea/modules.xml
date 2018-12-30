@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/elasticsearch_demo/elasticsearch_demo.iml" filepath="$PROJECT_DIR$/elasticsearch_demo/elasticsearch_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop_demo1.iml" filepath="$PROJECT_DIR$/hadoop_demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop_hdfs/hadoop_hdfs.iml" filepath="$PROJECT_DIR$/hadoop_hdfs/hadoop_hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop_mapreduce_demo1/hadoop_mapreduce_demo1.iml" filepath="$PROJECT_DIR$/hadoop_mapreduce_demo1/hadoop_mapreduce_demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/hbase_demo/hbase_demo.iml" filepath="$PROJECT_DIR$/hbase_demo/hbase_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase_weibo/hbase_weibo.iml" filepath="$PROJECT_DIR$/hbase_weibo/hbase_weibo.iml" />
       <module fileurl="file://$PROJECT_DIR$/hive_demo/hive_demo.iml" filepath="$PROJECT_DIR$/hive_demo/hive_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka_demo/kafka_demo.iml" filepath="$PROJECT_DIR$/kafka_demo/kafka_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storm_ackfail/storm_ackfail.iml" filepath="$PROJECT_DIR$/storm_ackfail/storm_ackfail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storm_demo/storm_demo.iml" filepath="$PROJECT_DIR$/storm_demo/storm_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper_demo/zookeeper_demo.iml" filepath="$PROJECT_DIR$/zookeeper_demo/zookeeper_demo.iml" />
     </modules>
   </component>
